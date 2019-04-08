@@ -13,10 +13,7 @@ export default {
         region: ""
       }
     };
-  },
-  mounted() {
-    console.log(this.$route)
-  },
+  }
 };
 </script>
 

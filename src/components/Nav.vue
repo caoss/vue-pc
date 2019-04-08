@@ -7,6 +7,15 @@
 </template>
 <script>
 export default {
-  name: "nav"
+  name: "nav",
+  data() {
+    return {
+      isActive:false
+    }
+  },
+  mounted() {
+    console.log(this.$route)
+    
+  },
 };
 </script>

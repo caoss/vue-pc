@@ -20,8 +20,5 @@ export default {
     Footer,
     Nav
   },
-  mounted() {
-    console.log(this.$route)
-  },
 }
 </script>
